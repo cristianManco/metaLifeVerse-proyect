@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Miguel Tabares",
+      "email": "miguel.tabares@riwi.io",
+      "password": "123abc",
+      "edad": 27,
+      "telefono": 312142343,
+      "genero": "Masculino"
+    },
+    {
+      "id": "2",
+      "nombre": "Daniel López",
+      "email": "daniel.lopez@riwi.io",
+      "password": "1234ab",
+      "edad": 25,
+      "telefono": 312142348,
+      "genero": "Masculino"
+    },
+    {
+      "id": "3",
+      "nombre": "Manuela Rico",
+      "email": "manu.rico@riwi.io",
+      "password": "12345b",
+      "edad": 25,
+      "telefono": 312142348,
+      "genero": "Femenino"
+    },
+    {
+      "id": "4",
+      "nombre": "Daniela Pérez",
+      "email": "daniela.perez@riwi.io",
+      "password": "a12345a",
+      "edad": 29,
+      "telefono": 312142288,
+      "genero": "Femenino"
+    },
+    {
+      "id": "5",
+      "nombre": "Keity Ortega",
+      "email": "keity.ortega@riwi.io",
+      "password": "123456",
+      "edad": 26,
+      "telefono": 312142355,
+      "genero": "Femenino"
+    },
+    {
+      "id": "6",
+      "nombre": "Camila López",
+      "email": "camila.lopez@riwi.io",
+      "password": "a1234",
+      "edad": 25,
+      "telefono": 312142349,
+      "genero": "Femenino"
+    },
+    {
+      "id": "1707215838053",
+      "name": "Miguel",
+      "age": "18",
+      "email": "silence@gmail.com",
+      "password": "Lola123*",
+      "gender": "male"
+    },
+    {
+      "id": "1707218193487",
+      "name": "Carlos",
+      "email": "susana.acuadros@udea.edu.co",
+      "password": "Lola123*",
+      "age": "23",
+      "phone": "12344223",
+      "genre": "Masculino"
+    },
+    {
+      "id": 1707308955043,
+      "name": "Daniel",
+      "email": "dani.stylop@gmail.com",
+      "password": "12345Aa*",
+      "age": "24",
+      "phone": "3017725144",
+      "genre": "Masculino"
+    },
+    {
+      "id": 1707313389261,
+      "name": "Daniel lópez",
+      "email": "danistilop@gmail.com",
+      "password": "Vanrossum*123",
+      "age": "22",
+      "phone": "3212439534",
+      "genre": "Masculino"
+    }
+  ],
+  "asesores": [
+    {
+      "id": "7",
+      "nombre": "Manuel Tabares",
+      "email": "manuel.tabares@riwi.io",
+      "password": "1234bc",
+      "edad": 27,
+      "telefono": 312842343,
+      "genero": "Masculino",
+      "imagen": "fotos/franco.jpeg"
+    },
+    {
+      "id": "8",
+      "nombre": "Daniel Galvis",
+      "email": "daniel.galviz@riwi.io",
+      "password": "12346b",
+      "edad": 25,
+      "telefono": 312182388,
+      "genero": "Masculino",
+      "imagen": "fotos/daniellopez.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Manuel Ricaurte",
+      "email": "manu.ricaurte@riwi.io",
+      "password": "12345bcd",
+      "edad": 28,
+      "telefono": 312142778,
+      "genero": "Masculino",
+      "imagen": "fotos/enao.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Cristina Pérez",
+      "email": "cristina.perez@riwi.io",
+      "password": "a778899l",
+      "edad": 24,
+      "telefono": 312142448,
+      "genero": "Femenino",
+      "imagen": "fotos/valentina.jpeg"
+    },
+    {
+      "id": "11",
+      "nombre": "Leidy Ortega",
+      "email": "leidy.ortega@riwi.io",
+      "password": "u123456",
+      "edad": 23,
+      "telefono": 312141355,
+      "genero": "Femenino",
+      "imagen": "fotos/andrea.jpg"
+    },
+    {
+      "id": "12",
+      "nombre": "Camilo Martínez",
+      "email": "camila.matinez@riwi.io",
+      "password": "a123476",
+      "edad": 25,
+      "telefono": 312141149,
+      "genero": "Femenino",
+      "imagen": "fotos/cristian.jpeg"
+    }
+  ],
+  "administrators": [
+    {
+      "id": "7",
+      "nombre": "Manuel Tabares",
+      "email": "manuel.tabares@riwi.io",
+      "password": "1234bc",
+      "edad": 27,
+      "telefono": 312842343,
+      "genero": "Masculino"
+    },
+    {
+      "id": "8",
+      "nombre": "Daniel Galvis",
+      "email": "daniel.galviz@riwi.io",
+      "password": "12346b",
+      "edad": 25,
+      "telefono": 312182388,
+      "genero": "Masculino"
+    },
+    {
+      "id": "9",
+      "nombre": "Manuel Ricaurte",
+      "email": "manu.ricaurte@riwi.io",
+      "password": "12345bcd",
+      "edad": 28,
+      "telefono": 312142778,
+      "genero": "Masculino"
+    },
+    {
+      "id": "10",
+      "nombre": "Cristina Pérez",
+      "email": "cristina.perez@riwi.io",
+      "password": "a778899l",
+      "edad": 24,
+      "telefono": 312142448,
+      "genero": "Femenino"
+    },
+    {
+      "id": "11",
+      "nombre": "Leidy Ortega",
+      "email": "leidy.ortega@riwi.io",
+      "password": "u123456",
+      "edad": 23,
+      "telefono": 312141355,
+      "genero": "Femenino"
+    },
+    {
+      "id": "12",
+      "nombre": "Camila Martínez",
+      "email": "camila.matinez@riwi.io",
+      "password": "a123476",
+      "edad": 25,
+      "telefono": 312141149,
+      "genero": "Femenino"
+    }
+  ]
+}

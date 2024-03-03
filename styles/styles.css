@@ -1,0 +1,447 @@
+
+.bodyStyles{
+    font-family: 'Comfortaa';
+    background-color: #008698;
+}
+
+#card2TextContainer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-right: 3rem;
+}
+
+.card2Title{
+    text-align: center;
+    color: #318bcf;
+    padding: 0.5rem;
+}
+
+.hrCard2{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    color: black;   
+    text-align: center;
+}
+
+.card{
+    padding: 4%;
+}
+h1{
+    color: rgb(1, 5, 7);
+}
+h2{
+    text-align: center;
+    color: rgb(1, 1, 22);
+}
+p{
+    color: rgb(205, 230, 252);
+    font-size: 22px;
+}
+
+.accesores{
+    height: auto !important;
+    display: grid;
+    grid-template-columns: repeat(1fr,3);
+    flex-wrap: nowrap;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para el rango del Modal "¿Como te sientes?"*/
+.numeros-rangos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnLogin{
+
+    border-radius: 8px;
+    margin-left: 4rem;
+
+}
+
+#banner-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+}
+
+#sticky-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    z-index: 2;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.smallText{
+    /* Color inicial */
+    animation: fadeInOut 5s infinite;
+    font-size: 2rem;
+}
+
+
+.informacion1{
+
+    height: 100vh;
+    width: auto;
+}
+
+.texto{
+    margin-left: 50px;
+}
+
+
+
+
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    padding: 10px;
+}
+.registro{
+    display: flex;
+    justify-content: center;
+}
+#r{
+    margin-left: 22px;
+    color: white;
+}
+
+
+/* Estilo para ocultar la información por defecto */
+.informacion {
+    display: none;
+}
+
+#btnHowYouFeel{
+    padding: 0.8rem;
+    margin: 2rem;
+    color: black;
+}
+
+
+/* Estilo para el enlace o botón */
+.enlace-desplegable {
+    cursor: pointer;
+    cursor: context-menu;
+    position: static;
+    text-decoration: none;
+    color: rgb(0, 0, 4);
+}
+.nav-item{
+    position: static;
+    position: relative;
+    padding: 10px;
+}
+/* Estilo para la barra de navegación */
+.nav-item .dropdown{
+    margin: 0%;
+    background-color: #ffffff00;
+}
+/* Estilo para los enlaces de la barra de navegación */
+
+.navbar {
+    background: linear-gradient(#00ACC1,
+        #322a64);
+    display: flex;
+}
+
+.container-fluid{
+    background: linear-gradient(#00ACC1,
+    
+        #322a64);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-container{
+    width: 100%;
+
+}
+
+
+
+.imgNavbar{
+    padding: 10px;
+}
+
+
+
+.nav-link:hover {
+    text-decoration: underline;
+    line-height: 1.5;
+    text-underline-offset: 0.5rem;
+
+}
+
+/* Animación de entrada de texto */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación de cambio de color */
+@keyframes colorChange {
+    0% {
+        color: #5eb2e9;
+        /* Color inicial */
+    }
+
+    50% {
+        color: #201a47;
+        /* Color intermedio */
+    }
+
+    100% {
+        color: #00ACC1;
+        /* Color final */
+    }
+}
+
+.mainText{
+    font-size: 1.7em;
+    font-weight: bolder;
+    animation: fadeIn 1.5s ease-in-out, colorChange 3s infinite alternate;
+}
+
+
+.navbar .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+input{
+    background-color: beige;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+footer{
+    /* background-color: rgb(15, 1, 29) ; */
+    color: cyan;
+    padding: 5rem;
+    text-align: center;
+}
+
+.sidebar {
+    /* background-color: #f4f4f4; */
+    padding: 1.3rem;
+    width: 80px;   
+}
+
+#card1Container{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#29cdb5, #008698);
+    padding: 4%;
+}
+
+.imgCard1{
+    border-radius: 10%;
+    width: 18rem;
+    padding: 1rem;
+    margin-left: 4rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#card1Title{
+    padding: 1rem;
+    text-align: center;
+    color: #272343;
+}
+
+#card2Container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#272343, black);
+}
+
+.hrPagos{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+.img2ContainerCard{
+    width: auto;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-right: 4rem;
+    margin-left: 0;
+    box-shadow: 0 10px 15px rgba(13, 43, 210, 0.825);
+}
+
+.card2img{
+    width: 20rem;
+    height: auto;
+    border-radius: 10%;
+}
+
+.btnCard2Container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 0rem 2rem;  
+    gap: 2rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .img2ContainerCard{
+    display: flex;
+    align-items: right;
+} */
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    
+}
+  
+.sidebar li {
+    margin-bottom: 10px;
+}
+  
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+  
+
+.ruleta-container {
+    text-align: center;
+}
+
+.ruleta {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        var(--opcion-color) 0%,
+        var(--opcion-color) 20%,
+        transparent 20%, transparent 100%
+    );
+    overflow: hidden;
+}
+
+.flecha {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 100px;
+    background-color: red;
+    transform-origin: 50% 100%;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.fondo{
+    background-image: url(/images/images\ \(3\).jpeg);
+    height: 35rem; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.redes li:hover{
+    /* background-color: rgba(255, 0, 0, 0.218); */
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow: 0 0 25px rgba(13, 43, 210, 0.825); 
+    height: auto;
+    gap: 58px;
+}
+.redes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 400px; */
+}
+
+.form-floating{
+    padding: 14rem;
+    width: auto;
+    
+}
+.dropdown-item:hover{
+    background-color: #20677f;
+   
+}
+

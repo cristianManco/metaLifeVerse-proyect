@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>&#127760; MetaLifeVerse</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="./styles/styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&family=Outfit:wght@800&family=Raleway:wght@700;800&display=swap"
+        rel="stylesheet">
+    </head>
+
+    <body class="bodyStyles">
+      <!-- INICIO DE SECCIÓN DE BARRA DE NAVEGACIÓN -->
+      <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand" href="/index.html"><img src="./images/logo.jpeg" class="imgNavbar" width="130px" 
+                style="border-radius: 15%; margin-left: 2rem;" alt=""></a>
+            <!-- icono menu pantallas small -->
+            <button class="navbar-toggler  btn btn-outline-info" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- inicio lista de enlaces principales -->
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html">MetaLifeVerse</a>
+                </li>
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="/nuevo.html">Agendar</a> -->
+                  <a class="nav-link" href="#"  data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Colaboradores
+                  </a>
+
+                </li>
+
+                <!-- enlace contactar -->
+                <li class="nav-item">
+                  <a class="nav-link" href="/contacto.html">Contáctanos</a>
+                </li>
+              </ul>
+
+              <div>
+                <div>
+                  <button id="btn_comoTeSientes" class="btn btn-outline-info"  data-bs-toggle="modal" data-bs-target="#modal_comoTeSientes">Como te sientes?</button>
+                </div>
+                <!-- <div class="nav-item">
+                  <a type="button" class="btn btn-outline-primary" id="btnHowYouFeel" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    ¿Cómo te sientes el día de hoy?
+                  </a>
+                </div> -->
+              </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a id="btnLogin" class="nav-link btn btn-outline-primary" href="./login.html">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-outline-info">
+                    <div id="google_translate_element" class="google" style="display: flex;justify-content: center;"></div>
+                    <script type="text/javascript" >
+                      function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({ pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de,tr,hu,hi,ar,af,aa,ru,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true }, 'google_translate_element');
+                      }
+                  </script>
+                
+                  <script type="text/javascript"
+                      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                  </script></button>
+                </li>
+                </ul>
+            </div>
+          </div>
+      </nav>
+
+      <!-- FIN de la sección de Barra de Navegación -->
+
+    <section class="informacion1">
+
+      <div id="banner-container">
+        <video autoplay preload="auto" muted loop class="theVideo" type="video/mp4">
+          <source src="./images/video.mp4" type="video/mp4"> Tu navegador no soporta HTML5
+        </video>
+
+        <div id="text-overlay">
+          <h1 class="mainText">Bienvenido a <br>
+            MetaLifeVerse,<br>
+          </h1>
+          <p class="smallText">Promovemos la <i>Vida</i> y la <i>Salud Mental</i> <br> desde el <i>Metaverso</i> </p>
+          <br>
+          <a href="https://decentraland.org/" target="_blank" class="btn btn-dark">Descargar &#127760;</a>
+          <br>
+        </div>
+      </div>
+
+    </section>
+
+
+
+      <div id="card1Container" class="card mb-0" >
+        <div class="row g-0" style="width: 100%; background: linear-gradient(#29cdb5);padding:0%">
+          <div class="col-md-4">
+            <br>
+            <br>
+            <div class="imgCardContainer">
+              <img class="imgCard1"  src="./images/psychologist1.jpg">
+            </div>
+          </div>
+          <div class="col-md-8" style="padding:3rem">
+            <div class="card-body" style="padding:0%">
+              <h3 class="card-title" id="card1Title">Agenda tu asesoría</h3>
+              <hr>
+              <br>
+              <p class="card-text">¿Tienes algún problema personal?</p>
+              <p class="card-text">Nuestros aliados y profesionales están listos para atenderte.</p>
+              <p class="card-text">Te brindamos acompañamiento psicológico las 24 horas del día, desde donde sea que te encuentres.</p>
+              <p class="card-text">Sin esperas largas ni demoras.</p>
+            </div>
+            <!-- btn comprar y descargar -->
+            <div style="display: flex;justify-content: center; gap: 2rem; padding: 3rem;">
+
+              <a href="./login.html" type="button" class="btn btn-outline-info" style="width: auto;">Comenzar</a>
+              <a href="https://decentraland.org/" target="_blank"  class="btn btn-outline-info" style="width: auto;">Explorar Metaverso &#127760;</a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+
+      <section id="card2Container"  class="card mb-0" >
+        <div id="card2TextContainer"  class="row g-0" style="width: 100%;background: linear-gradient(black, #272343, )">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card2Title">Crea tu avatar</h3>
+              <hr class="hrCard2">
+              <p class="card-text">Recibe acompañamiento en salud mental a través de una experiencia inmersiva en el
+                MetaLifeVerse</p>
+              <p class="card-text">Regístrate y recibe tu consulta desde nuestro Metaverso.</p>
+            </div>
+          </div>
+       
+
+        <div class="img2ContainerCard">
+          <img class="card2img" src="./images/card2img.jpg" alt="card2 Imagen">
+
+                  <!-- btn comprar y descargar -->
+          <div class="btnCard2Container">
+
+            <a href="https://decentraland.org/" target="_blank"  class="btn btn-outline-info" style="width: auto;">Crear</a>
+            <a href="./login.html" target="_blank" class="btn btn-outline-info" style="width: auto;">Ingresar &#127760;</a>
+          </div>  
+        </div>
+      </div>
+      </section>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
+        style="height: fit-content;padding: 2rem; background-color: rgb(1, 5, 33)">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/decentraland01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="images/meditacion .jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/vista-lateral-personas-gafas-vr_23-2150603813.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/collage-entrenamiento-inmersivo_23-2150675737.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- fin carousel-->
+
+      <section class="fondo"
+        style="background-image: url(images/mujer-tiro-completo.jpg); height:100vh; background-repeat: no-repeat; background-size: cover;">
+        <div style=" text-align: center;">
+          <br>
+          <br>
+          <p class="fs-2" style="color: white;">Conoce nuestro equipo de psicólogos, pasantes y asesores aliados</p>
+
+          <a class="nav-link" href="#"  data-bs-toggle="modal"
+          data-bs-target="#exampleModal" style="font-size: 1.5rem;">
+          Colaboradores
+          </a>
+          
+        </div>
+      </section>
+
+      <section style="height:auto; background: linear-gradient(#272343, rgb(1, 5, 33));height: auto;height: fit-content;">
+        <h2 style="padding-top: 4rem; color:whitesmoke">Nuestros métodos de pago para usuarios Premium</h2>
+        <hr class="hrPagos">
+
+        <div class="container text-center" style="height: auto;">
+          <div class="row" style="height: auto;">
+            <!-- card 1 -->
+            <div class="col">
+              <div class="card" style="width: 18rem;   background-color:#008698;margin-top: 40px;">
+                <h3 class="card-title" style="color: white;">Ethereum</h3>
+                <img src="./images/descarga (2).jpeg" class="card-img-top" width="200" height="204" alt="...">
+                <div class="card-body">
+                  <p class="card-text;" style="color:white; padding-bottom: 0rem;">Hazte premium enlazando tu billetera digital. Paga con ETH o MANA.
+                  </p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" style="background-color:rgb(1, 5, 33);color: white;" >Enlazar Metamask</li>
+                </ul>
+                <div class="card-body">
+                  <a id="firstBtnPagos" href="#" class="btn btn-outline-info">Comenzar</a>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col">
+              <div class="card" style="width: 18rem;background-color:#008698;margin-top: 40px;">
+                <h3 class="card-title" style="color:white;">Suscripción</h3>
+                <img src="./images/descarga (4).jpeg" class="card-img-top" width="200" height="204" alt="...">
+                <div class="card-body">
+                  <p class="card-text" style="color:white">Por sólo $14.900 al mes tendrás acceso ilimitado a nuestro servicio en el MetaLifeVerse</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" style="background-color:rgb(1, 5, 33);color: white;"> Registro </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="btn btn-outline-info">Comenzar</a>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col">
+              <div class="card" style="width: 18rem;background-color:#008698;margin-top: 40px;">
+
+                <h3 class="card-title" style="color: white;">PSE</h3>
+
+                <img src="./images/descarga (6).jpeg" class="card-img-top" width="200" height="204" alt="...">
+                <div class="card-body">
+                  <p class="card-text" style="color:white">Paga tu suscripción sin demoras desde tu cuenta bancaria a través PSE.</p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" style="background-color:rgb(1, 5, 33);color: white;">Pagar por PSE</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="btn btn-outline-info">Comenzar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+        <br>
+        <br>
+      </section>
+
+
+      <div class="accesores"
+        style="width: auto;margin: auto;height: auto;background: linear-gradient(#00ACC1,
+        #322a64)">
+        <br>
+        <div class="registro">
+          <p>
+            Únete a nuestra comunidad y entérate de todos nuestros procesos:<br>
+            Proyectos, Comunidad, Eventos en el Metaverso y más...
+          </p>
+        </div>
+        <!-- btn acceder -->
+        <h5 id="r" style="display: flex;justify-content: center; gap: 8px;align-items: center;">Regístrate : <a
+            type="button" href="./login.html" class="btn btn-outline-info onclik" style="border-radius: 10px;"> 
+            Acceder</a></h5>
+        <br>
+      </div>
+
+      <hr style="padding:0% ;background-color:black; margin:0%;">
+      <div style="background: linear-gradient(#00ACC1,
+      #322a64)
+">
+        <!-- inicio footer -->
+        <footer style="background: linear-gradient(#00ACC1,
+        #322a64)
+">
+
+          <div>
+            <i> Todos los derechos reservados | 2024 &copy;| Riwi | Grupo B1 | Equipo 3</i>
+            <!-- <i> todos los derechos reservados |  2024  &copy;|  Riwi | Grupo B1 | cristian manco</i> -->
+          </div>
+          <br>
+          <i>Nuestras redes sociales :</i>
+          <div class="footer-icons" style="display: flex;gap: 20px;justify-content: center;margin-top: 40px;">
+            <a href="https://WhatsApp.com"><img src="images/wredes2.png" width="30px" height="30px"
+                style="border-radius: 10%;" alt=""></a>
+            <a href="https://facebook.com"><img src="images/Fredes1.png" width="30px" height="30px"
+                style="border-radius: 10%;" alt=""></a>
+            <a href="https://twitter.com"><img src="images/tredes1.png" width="30px" height="30px"
+                style="border-radius: 10%;" alt=""></a>
+            <a href="https://Instagram.com"><img src="images/iredes5.png" width="30px" height="30px"
+                style="border-radius: 10%;" alt=""></a>
+            <a href="https://linkedin.com"><img src="images/lredes1.png" width="30px" height="30px"
+                style="border-radius: 10%;" alt=""></a>
+
+          </div>
+
+        </footer>
+
+      </div>
+
+      <div class="align-content-center">
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content "
+              style="width: max-content; background: linear-gradient(#00ACC1,
+              #322a64)
+      ">
+              <div class="modal-header" style="justify-content: center;">
+                <h2 style="padding-top: 1rem;">Nuestros psicólogos y asesores</h2>
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body" style="width: auto;">
+
+                <section class="accesores"
+                  style=" background: linear-gradient(#00ACC1,
+                  #322a64);margin: auto;height: auto;width: auto;padding: 2rem;">
+                  <!-- <h2 style="padding-top: 4rem;">Nuestros psicólogos y asesores</h2> -->
+                  <br>
+                  <div class="container1 text-center" style="height: auto; padding: 1rem;">
+                    <div class="row"
+                      style="display: grid; grid-template-columns: repeat(2,1fr); width: auto;padding: 1rem;">
+                      <!-- card 1 -->
+                      <div class="col">
+                        <div class="card" style="width: 18rem;background-color:rgb(1, 4, 22);margin-top: 40px;">
+                          <h3 class="card-title" style="color: #ffffff;">Francisco Román</h3>
+                          <img src="./images/psy04.jpg" class="card-img-top" width="auto" height="auto" alt="...">
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">Francisco Román es licenciado en Psicología por la Universidad de Antioquia y puede ayudar a personas de todas las edades con problemas emocionales y psicológicos.
+
+                              Este psicoterapeuta está especializado en casos de depresión, ansiedad, falta de autoestima y traumas por abusos sexual. Es interesante saber que Francisco Román también puede intervenir en conflictos familiares gracias a sus conocimientos en dinámicas de grupo.</p>
+                          </div>
+
+                          <ul class="list-group list-group-flush " style="font-size:14px;">
+                            <li class="list-group-item" style="background-color: white;font-size:14px;">Depresión
+                            </li>
+                            <li class="list-group-item" style="background-color: white;">Problemas emocionales</li>
+                            <li class="list-group-item" style="background-color: white;">Abuso sexual</li>
+                          </ul>
+
+                          <div class="card-body">
+                            <p style="font-size:14px;" class="card-text">Disponible ahora en MetaLifeVerse</p>
+                            <!-- <a href="https://decentraland.org/" target="_blank" type="button" class="btn btn-outline-info">
+                                      Contactar
+                                    </a> -->
+                            <a href="./login.html" type="button" class="btn btn-outline-primary" >
+                              Contactar
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 2 -->
+                      <div class="col">
+                        <div class="card" style="width: 18rem;background-color:rgb(1, 4, 22);margin-top: 40px;">
+                          <h3 class="card-title" style="color:#ffffff;">Melissa Santamaría</h3>
+                          <img src="./images/psy03.jpg" class="card-img-top" width="auto" height="auto" alt="...">
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">Melissa Santamaria es una de las psicólogas más destacadas que podemos encontrar en la ciudad de Medellín.
+
+                              Es licenciada en Psicología clínica con orientación cognitivo-conductual por la Atlantic International University, en Estados Unidos. Melissa Santamaria es una de las mejores psicólogas a las que podemos acudir si tenemos problemas relacionados como la incapacidad para gestionar la ira, los trastornos de ansiedad, la depresión y los trastornos de la personalidad.</p>
+                          </div>
+                          <ul class="list-group list-group-flush" style="font-size:14px;">
+                            <li class="list-group-item" style="background-color: white;">Gestión de la ira</li>
+                            <li class="list-group-item" style="background-color: white;">Ansiedad</li>
+                            <li class="list-group-item" style="background-color: white;">Trastornos de personalidad</li>
+                          </ul>
+
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">Disponible ahora en MetaLifeVerse</p>
+                            <a href="./login.html" type="button" class="btn btn-outline-primary" >
+                              Contactar
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 3 -->
+                      <div class="col">
+                        <div class="card" style="width: 18rem;background-color:rgb(1, 4, 22);margin-top: 40px;">
+                          <h3 class="card-title" style="color:#ffffff;">Caren Palacio Londoño</h3>
+                          <img src="./images/psy02.jpg" class="card-img-top" width="auto" height="auto" alt="...">
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">La Psicóloga Clínica Caren Palacio es Graduada en Psicología por la Institución Universitaria de Envigado, tiene un Posgrado de Especialista en Psicogerontología, un Diplomado en Psicología Clínica y de la Salud y un Curso Formativo de Intervención en Psicología Clínica.
+
+                              Su intervención se ofrece de manera online a familias con niños, a adolescentes, a adultos, personas mayores, y a parejas que se encuentren atravesando un período de malestar o sufrimiento en sus vidas.</p>
+                          </div>
+                          <ul class="list-group list-group-flush" style="font-size:14px;">
+                            <li class="list-group-item" style="background-color: white;">Crisis de pareja</li>
+                            <li class="list-group-item" style="background-color: white;">Problemas de autoestima</li>
+                            <li class="list-group-item" style="background-color: white;">Conflictos familiares</li>
+                          </ul>
+
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">Disponible ahora en MetaLifeVerse</p>
+                            <a href="./login.html" type="button" class="btn btn-outline-primary" >
+                              Contactar
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 4 -->
+                      <div class="col">
+                        <div class="card" style="width: 18rem;background-color:rgb(1, 4, 22);margin-top: 40px;">
+                          <h3 class="card-title" style="color:#ffffff;">Catalina Muñoz Sánchez</h3>
+                          <img src="./images/psy01.jpg" class="card-img-top" width="auto" height="auto" alt="...">
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">La psicóloga Catalina Muñoz atiende en su consulta privada tanto a adultos de todas las edades de manera individual como a parejas y también grupos.
+
+                            Sus servicios se ofrecen mediante el ofrecimiento de sesiones presenciales y también a distancia, en las cuales integra diversas terapias psicológicas eficaces junto al Coaching y también junto al ámbito espiritual, con el objetivo de brindar un servicio de atención holística.
+                          
+                            Entre sus especialidades de intervención pueden destacarse las adicciones, la depresión, la baja autoestima, el estrés..
+                          </p>
+                          </div>
+                          <ul class="list-group list-group-flush" style="font-size:14px;">
+                            <li class="list-group-item" style="background-color: white;">Adicciones</li>
+                            <li class="list-group-item" style="background-color: white;">Manejo del estrés</li>
+                            <li class="list-group-item" style="background-color: white;">Procesos de divorcio</li>
+                          </ul>
+
+                          <div class="card-body">
+                            <p class="card-text" style="font-size:14px;">Disponible ahora en MetaLifeVerse</p>
+                            <a href="./login.html" type="button" class="btn btn-outline-primary" >
+                              Contactar
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+              </div>
+              <br>
+              </section>
+
+              <div class="modal-footer" style="display:flex;justify-content: center;">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Regresar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content"
+              style="width: auto; background-color:linear-gradient(#00ACC1,
+              #322a64);color: rgb(202, 192, 192);">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, consectetur qui, labore ab aliquam,
+                  possimus dignissimos quas facere nobis quo sunt corporis quos. Pariatur corporis nisi, facere illum porro
+                  itaque?</p>
+              </div>
+              <div class="modal-footer" style="display: flex;justify-content: center;">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-primary">enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div style="background-color: linear-gradient(#00ACC1,
+              #322a64);padding: 0px;margin: auto;">
+
+                <div class="modal-header" style="background-color: linear-gradient(#00ACC1,
+                #322a64); justify-content: center;">
+                  <h3 class="modal-title" style="color: black;">Tu estado de ánimo</h3>
+                  <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body"
+                  style="height:auto; background: linear-gradient(#00ACC1,
+                  #322a64)";>
+                  <br>
+                  <h5 for="customRange3" class="form-label">Selecciona tu rango actual de estado de ánimo ...</h5>
+                  <br>
+                  <br>
+                  <input type="range" class="form-range" min="1" max="5" step="1" id="customRange3">
+                  <div style="display: flex;justify-content: center; gap: 80px;font-size: 90px;">
+                    <p>&#128557;</p>
+                    <p>&#128544;</p>
+                    <p>&#128528;</p>
+                    <p>&#128524;</p>
+                    <p>&#128512;</p>
+
+                  </div>
+                </div>
+                <div class="modal-footer" style="background-color: linear-gradient(#00ACC1,
+                #322a64);display: flex;justify-content: center;">
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+        <script type="module" src="script/index.js"></script>
+        <script type="module" src="script/db.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"></script>
+  
+
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script src="./script/range.js"></script>
+    </body>
+
+</html>

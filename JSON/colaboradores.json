@@ -1,0 +1,37 @@
+{
+    "colaboradores": [
+        {
+            "id":1,
+            "name": "Daniel",
+            "edad": 22,
+            "imagen":"../fotos/daniellopez.jpg"
+        },
+        {
+            "id":2,
+            "name":"Camilo Manco",
+            "edad":23,
+            "imagen":"../fotos/cristian.jpeg"
+        },
+        {
+            "id":3,
+            "name":"Miguel Tabares",
+            "edad":27,
+            "imagen":"../fotos/tabares.jpeg"
+        },
+        {
+            "id":4,
+            "name":"Andrea",
+            "edad":18,
+            "imagen":"../fotos/andrea.jpg"
+        }
+    ],
+    
+    "profesionales":
+        {
+            "id":1,
+            "name": "Liliana Montoya",
+            "edad":31,
+            "imagen":"../fotos/andrea.jpg"
+        }
+    
+}
